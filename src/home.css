@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color: #666;
+    margin-top: 50px;
+}
+
+.title{
+    display: flex;
+    line-height: 32px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+}
+.title>div:nth-child(1){
+    width: 20px;
+}
+
+.title>div:nth-child(2){
+    width: 70px;
+}
+.title>div:nth-child(3){
+    flex: 1;
+    /* margin-right: 10px; */
+}
+
+
+.item{
+    display: flex;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.item>div:nth-child(1){
+    width: 70px;
+    text-align: center;
+}
+
+.item>div:nth-child(2){
+    /* width: 356px; */
+    flex: 1;
+}
+
+button {
+    margin: 0 10px;
+}
+
+.footer{
+    text-align: center;
+
+}
+.footer button{
+    margin: 0 10px;
+}
